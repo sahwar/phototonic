@@ -51,7 +51,7 @@ body {
   font-size: 15px;
   line-height: 1.5; 
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif; 
   font-weight: 400;
   color: #666;
 }
@@ -64,9 +64,9 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif; 
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
@@ -81,8 +81,8 @@ header h1 {
 }
 
 header h2 {
-  font-size: 26px;
-  color: #9ddcff;
+  font-size: 22px;
+  color: #ffffff;
   font-weight: normal;
   line-height: 1.3;
   width: 540px;
@@ -136,7 +136,7 @@ a.button {
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif; 
 }
 a.button small {
   display: block;
@@ -158,7 +158,7 @@ aside a.button {
 }
 
 code, pre {
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Courier New", "Lucida Console", Terminal, monospace;
   color: #222;
   margin-bottom: 30px;
   font-size: 13px;
@@ -225,7 +225,7 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif; 
   font-size: 2.8em;
   letter-spacing: -1px;
   color: #474747;
@@ -239,8 +239,8 @@ form {
 }
 
 #main-content h2 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 22px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif; 
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 8px;
   color: #474747;
@@ -253,7 +253,7 @@ form {
 }
 
 #main-content h3 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif; 
   font-size: 18px;
   font-weight: bold;
   margin-top: 24px;
@@ -269,7 +269,7 @@ form {
 }
 
 #main-content h4 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif; 
   font-size: 15px;
   font-weight: bold;
   color: #474747;
@@ -283,7 +283,7 @@ h4:before {
 }
 
 #main-content h5 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif; 
   font-size: 14px;
   color: #474747;
 } 
@@ -295,7 +295,7 @@ h5:before {
 }
 
 #main-content h6 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif; 
   font-size: .8em;
   color: #474747;
 } 
@@ -422,7 +422,7 @@ footer a:hover {
     font-size: 48px;
   }
   header h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
   header a.button {
     background-image: none;
