@@ -69,10 +69,23 @@ New web site, under construction.
 <h3>
 <a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
 
-<pre><code>$ qmake-qt4 PREFIX="/usr"
+<p>In some distributions installation of development packages might be needed beforehand.<br>
+For example, in Ubuntu:</p>
+
+<pre><code>$ sudo apt-get install build-essential
+$ sudo apt-get install libqt4-dev
+</code></pre>
+
+General instructions:
+
+<pre><code>$ tar -zxvf phototonic.tar.gz
+$ cd phototonic
+$ qmake-qt4 PREFIX="/usr"
 $ make
 $ sudo make install
 </code></pre>
+
+
 
 <h3>
 <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h3>
