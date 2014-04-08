@@ -41,6 +41,9 @@
 
 <h3><a name="news" class="anchor" href="#news"><span class="octicon octicon-link"></span></a>News</h3>
 <p>
+<li><u>8 Apr 2014</u> - Moved to QT5, bug fixes</li>
+<li><u>7 Apr 2014</u> - Fixed missing icons when not in a DE</li>
+<li><u>2 Apr 2014</u> - Added additional image info in status and title bars</li>
 <li><u>28 Mar 2014</u> - v0.96 - Fixed thumbnails navigation usability issues.</li>
 <li><u>28 Mar 2014</u> - v0.95 - Added Open with external app option and some other enhancements.</li>
 <li><u>25 Mar 2014</u> - v0.94 - Icons now loaded from theme, added Copy Image option.</li>
@@ -52,7 +55,7 @@
 <h3>
 <a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h3>
 <p>
-<li>Light and fast</li>
+<li>Light and fast, clear interface</li>
 <li>Does not depend on any desktop environment</li>
 <li>Supports several thumbnail layouts</li>
 <li>Thumbnails customization: size, spacing, sorting, colors</li>
@@ -63,7 +66,7 @@
 <li>Extensive automatic and manual zoom options</li>
 <li>Keep transformations and zoom while viewing multiple images</li>
 <li>Multiple mirroring options</li>
-<li>Supported formats: BMP, GIF, JPEG, PNG, TIFF, SVG, PBM, PGM, PPM, XBM, XPM</li>
+<li>Supported formats: BMP, GIF, JPEG, PNG, TIFF, SVG, PBM, PGM, PPM, XBM, XPM, TGA</li>
 <li>Supports saving in formats: BMP, JPEG, PNG, TIFF, PPM, XBM, XPM</li>
 <li>Keyboard shortcuts customization</li>
 <li>Load image files or folders from command line</li>
@@ -76,7 +79,11 @@
 <h3>
 <a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h3>
 
-<p><li>Qt 4.x</li></p>
+<p>
+<li>Qt 5.x</li>
+<li>qt5-imageformats to enable TIFF/TGA support</li>
+<li>qt5-svg to enable SVG support</li>
+</p>
 
 <h3>
 <a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
@@ -92,7 +99,7 @@ General instructions:
 
 <pre><code>$ tar -zxvf phototonic.tar.gz
 $ cd phototonic
-$ qmake-qt4 PREFIX="/usr"
+$ qmake PREFIX="/usr"
 $ make
 $ sudo make install
 </code></pre>
