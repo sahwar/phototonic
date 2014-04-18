@@ -41,6 +41,8 @@
 
 <h3><a name="news" class="anchor" href="#news"><span class="octicon octicon-link"></span></a>News</h3>
 <p>
+<li><u>18 Apr 2014</u> - New Colors dialog with Hue and Saturation settings. Added support for animated GIFs. Large images
+can now be moved around with keyboard as well as the mouse.</li>
 <li><u>11 Apr 2014</u> - Fixed usability issues, v0.97 released.</li>
 <li><u>8 Apr 2014</u> - Moved to Qt5, bug fixes.</li>
 <li><u>7 Apr 2014</u> - Fixed missing icons when not in a DE.</li>
@@ -69,9 +71,12 @@
 <li>Multiple mirroring options</li>
 <li>Supported formats: BMP, GIF, JPEG, PNG, TIFF, SVG, PBM, PGM, PPM, XBM, XPM, TGA</li>
 <li>Supports saving in formats: BMP, JPEG, PNG, TIFF, PPM, XBM, XPM</li>
+<li>Supports GIF animations</li>
 <li>Keyboard shortcuts customization</li>
 <li>Load image files or folders from command line</li>
 <li>Open image with an external application</li>
+<li>Change hue and saturation</li>
+<li>Color splash effect</li>
 </p>
 
 <h3>
@@ -113,8 +118,8 @@ $ sudo apt-get install libqt4-dev
 <a name="FAQ" class="anchor" href="#FAQ"><span class="octicon octicon-link"></span></a>FAQ</h3>
 
 <ol>
-<p><li>When I copy files, why Phototonic doesn't ask whether to overwrite files at the destination?</li></p>
-<p>Phototonic never overwrites files at the destination folder when copying files, it always renames the file automatically if it finds a file with the same name.</p>
+<p><li>When I copy files, why doesn't Phototonic asks whether to overwrite files at the destination?</li></p>
+<p>Phototonic never overwrites files at the destination folder when copying, it always renames the files automatically if it finds files with the same name.</p>
 <p><li>After the upgrade to Qt5, why does the fonts look blurry?</li></p>
 <p>To fix anti aliased fonts in Qt5 applications, edit the file ~/.config/fontconfig/fonts.conf with this content: </p>
 <pre><code>
@@ -162,9 +167,8 @@ $ sudo apt-get install libqt4-dev
 <p class="repo-owner">Links</p>
 
 <ul>
-<li><a href="https://github.com/oferkv/phototonic/archive/v0.97.tar.gz">Download v0.97</a></li>
 <li><a href="https://gitorious.org/phototonic/phototonic/">Download Latest from git</a></li>
-<li><a href="https://aur.archlinux.org/packages/?O=0&C=0&SeB=nd&K=phototonic&outdated=&SB=n&SO=a&PP=50&do_Search=Go">Arch Linux AUR</a></li>
+<li><a href="https://github.com/oferkv/phototonic/archive/v0.97.tar.gz">Download v0.97</a></li>
 <li><a href="https://github.com/oferkv/phototonic/issues?state=open">Report Bugs</a></li>
 <li><a href="https://github.com/oferkv/phototonic">Browse Source</a></li>
 </ul>
