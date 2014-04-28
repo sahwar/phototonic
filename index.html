@@ -41,6 +41,7 @@
 
 <h3><a name="news" class="anchor" href="#news"><span class="octicon octicon-link"></span></a>News</h3>
 <p>
+<li><u>27 Apr 2014</u> - Added New Image and Paste Image functionality</li>
 <li><u>21 Apr 2014</u> - Added notifications while in viewer, bug fixes, v0.98 released.</li>
 <li><u>18 Apr 2014</u> - New Colors dialog with Hue and Saturation settings. Added support for animated GIFs. Large images
 can now be moved around with keyboard as well as the mouse.</li>
@@ -107,7 +108,18 @@ $ make
 $ sudo make install
 </code></pre>
 
-<p>Note: in some distributions installation of development packages might be needed prior to installation.<br>
+Example for Ubuntu:
+
+<pre><code>$ sudo apt-get install build-essential
+$ sudo apt-get install qt5-default
+$ tar -zxvf phototonic.tar.gz
+$ cd phototonic
+$ qmake qt=qt5
+$ make
+$ sudo make install
+</code></pre>
+
+
 
 <h3>
 <a name="FAQ" class="anchor" href="#FAQ"><span class="octicon octicon-link"></span></a>FAQ</h3>
