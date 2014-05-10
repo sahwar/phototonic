@@ -178,7 +178,7 @@ pre {
   border: solid 1px #f2f2f2;
 }
 pre code {
-  color: #2879d0;
+  color: #003399;
   background-color: #fff;
   border: none;
   padding: 0;
@@ -246,7 +246,7 @@ form {
   color: #474747;
 } 
 #main-content h2:before {
-  content: "//";
+  content: "•";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -1.5em;
@@ -262,8 +262,8 @@ form {
 } 
  
 #main-content h3:before {
-  content: "///";
-  color: #9ddcff;
+  content: "■";
+  color: #003399;
   padding-right: 0.3em;
   margin-left: -2em;
 }
