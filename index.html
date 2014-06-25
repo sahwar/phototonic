@@ -146,49 +146,7 @@ $ make
 $ sudo make install
 </code></pre>
 
-<h3>
-<a name="FAQ" class="anchor" href="#FAQ"><span class="octicon octicon-link"></span></a>FAQ</h3>
 
-<p><li>When copying files, why doesn't Phototonic asks whether to overwrite files at the destination?</li></p>
-<p>Phototonic never overwrites files at the destination folder when copying, it always renames the files automatically if it finds files with the same name.</p>
-<p><li>After the upgrade to Qt5, why does the fonts look blurry?</li></p>
-<p>To fix anti aliased fonts in Qt5 applications, edit the file ~/.config/fontconfig/fonts.conf with this content: </p>
-<pre><code>
-&lt;?xml version="1.0"?&gt;
-&lt;!DOCTYPE fontconfig SYSTEM "fonts.dtd"&gt;
-&lt;fontconfig&gt;
-&lt;match target="font" &gt;
-&lt;edit mode="assign" name="hinting" &gt;
-&lt;bool&gt;true&lt;/bool&gt;
-&lt;/edit&gt;
-&lt;/match&gt;
-&lt;match target="font" &gt;
-&lt;edit mode="assign" name="hintstyle" &gt;
-&lt;const&gt;hintfull&lt;/const&gt;
-&lt;/edit&gt;
-&lt;/match&gt;
-&lt;match target="font" &gt;
-&lt;edit mode="assign" name="rgba" &gt;
-&lt;const&gt;rgb&lt;/const&gt;
-&lt;/edit&gt;
-&lt;/match&gt;
-&lt;match target="font" &gt;
-&lt;edit mode="assign" name="antialias" &gt;
-&lt;bool&gt;false&lt;/bool&gt;
-&lt;/edit&gt;
-&lt;/match&gt;
-&lt;match target="font"&gt;
-&lt;edit mode="assign" name="lcdfilter"&gt;
-&lt;const&gt;lcddefault&lt;/const&gt;
-&lt;/edit&gt;
-&lt;/match&gt;
-&lt;match target="pattern"&gt;
-&lt;edit name="dpi" mode="assign"&gt;
-&lt;double&gt;96&lt;/double&gt;&lt;/edit&gt;
-&lt;/match&gt;
-&lt;/fontconfig&gt;
-</code></pre>
-</ol>
 <h3>
 <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h3>
 
@@ -198,10 +156,11 @@ $ sudo make install
 <p class="repo-owner">Links</p>
 
 <ul>
-<li><a href="https://gitorious.org/phototonic/phototonic/">Download Latest from git</a></li>
+<li><a href="https://gitorious.org/phototonic/phototonic/">Download Latest from Git</a></li>
 <li><a href="https://github.com/oferkv/phototonic/archive/v0.99.tar.gz">Download v0.99</a></li>
-<li><a href="https://github.com/oferkv/phototonic/issues?state=open">Bugs Reports</a></li>
-<li><a href="https://github.com/oferkv/phototonic">Browse Source</a></li>
+<li><a href="https://github.com/oferkv/phototonic/wiki">Wiki</a></li>
+<li><a href="https://github.com/oferkv/phototonic/issues?state=open">Bugs</a></li>
+<li><a href="https://github.com/oferkv/phototonic">Source</a></li>
 </ul>
 <p class="repo-owner">Screenshots</p>
 <a href="http://i.imgur.com/OPFLfDC.jpg"><img src="http://i.imgur.com/OPFLfDCm.jpg" width="200"></a>
